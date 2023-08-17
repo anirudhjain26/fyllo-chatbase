@@ -56,9 +56,14 @@ class WebpageQATool(BaseTool):
 
 llm = ChatOpenAI(temperature=1.0)
 query_website_tool = WebpageQATool(qa_chain=load_qa_with_sources_chain(llm))
+
+
+# ENTER WEBSITE URL HERE 
 url = "https://www.fyllo.in/"
+
+# ENTER YOUR QUERY HERE
+query = "How can irrigation system companies benefit from it?"
+
 print(
-    query_website_tool.run(
-        "How can irrigation system companies benefit from it?"
-    )
+    query_website_tool.run(query)
 )
