@@ -1,4 +1,4 @@
-# LangChain Web Scraping and Question Answering Repository
+# Fyllo Chatbase
 
 This repository contains code for web scraping text data from a webpage and performing question answering using LangChain's tools and models. It provides scripts to extract information from a webpage and answer questions based on the extracted content using OpenAI's language models.
 
